@@ -16,7 +16,9 @@ app.use(cors());
 
 //app routers
 app.use("/api", financialDataRoute);
-
+app.get("/", (req, res)=>{
+  res.send("I am on")
+})
 
 const PORT = process.env.PORT || 4000;
 mongoose
