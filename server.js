@@ -23,13 +23,7 @@ app.get("/", (req, res)=>{
 const PORT = process.env.PORT || 4000;
 mongoose
   .connect(
-    "mongodb+srv://sazzadmahmud16301091:sazzadmahmud16301091@cluster0.3btvx.mongodb.net/test-db?retryWrites=true&w=majority",
-    {
-      useNewUrlParser: true,
-      useCreateIndex: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-    }
+    "mongodb+srv://sazzadmahmud16301091:sazzadmahmud16301091@cluster0.3btvx.mongodb.net/test-db?retryWrites=true&w=majority"
   )
   .then(() => {
     app.listen(PORT, (req, res) => {
