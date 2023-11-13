@@ -5,10 +5,6 @@ Go to the project's root directory
 ```bash
 $ npm install
 ```
-Then, Go to the client directory
-```bash
-$ npm install
-```
 
 ## Running the app
 Go to root and run
@@ -16,10 +12,6 @@ Go to root and run
 # development
 $ npm run dev
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
 
 
